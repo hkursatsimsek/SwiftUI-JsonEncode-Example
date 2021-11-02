@@ -8,7 +8,7 @@
 import Foundation
 
 struct Todo : Codable, Identifiable {
-    public var id : String
+    public var id : Int
     public var title: String
     public var completed: Bool
 }
